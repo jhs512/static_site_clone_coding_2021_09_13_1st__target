@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initbackgroundl-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a560dbdce4.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>몰입코딩</title>
+</head>
+<body>
+    <div class="overlay">
+        <div class="h1_wrap">
+            <h1>MORIPCODING</h1>
+        </div>
+    </div>
+    <header>
+        <h1 class="coming-up"><a href="#">MORIPCODING</a></h1>
+        <ul class="gnb row">
+            <li class="coming-up" style="transition-delay:0.2s;"><a class="workA" href="#">WORK</a></li>
+            <li class="coming-up" style="transition-delay:0.4s;"><a class="aboutA" href="#about">ABOUT</a></li>
+            <li class="coming-up" style="transition-delay:0.6s;"><a class="contactA" href="#contact">CONTACT</a></li>
+        </ul>
+        <button href="#" class="hamburger coming-up" style="transition-delay:0.8s;" onclick="event.stopPropagation();document.querySelector('.modal-menu').classList.add('on');">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <div class="modal-menu">
+        <ul class="row third">
+            <button class="hamburger close"
+                onclick="event.stopPropagation();document.querySelector('.modal-menu').classList.remove('on');">
+                <span></span>
+                <span></span>
+            </button>
+            <li class="col">
+                <a class="workA" href="#">
+                    WORK
+                </a>
+            </li>
+            <li class="col">
+                <a class="aboutA" href="#">
+                    ABOUT
+                </a>
+            </li>
+            <li class="col">
+                <a class="contactA" href="#">
+                    CONTACT
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="wrap">
+        <div class="smooth-scroll-wrapper">
+            <div class="sect sect1">
+                <div class="sect_wrap">
+                    <div id="mainSlider" class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/slide04.png" alt="slide">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/slide02.png" alt="slide">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/slide03.png" alt="slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub_title">
+                    <h3 class="coming-up">HTML/CSS/JS <br>
+                        웹 코딩의 모든 것을 아우르다</h3>
+                    <a class="continue toSect2 coming-up" style="transition-delay:0.5s;" href="#">
+                        Continue 
+                        <span class="arrow"></span>
+                    </a>
+                </div>
+                <h2 class="coming-up" style="transition-delay:1s;">기본기가 탄탄한<br>
+                    <b>웹 퍼블리셔 김몰입</b>입니다. &nbsp;&nbsp;&nbsp;<a href="#" class="swiper-prev"><</a>&nbsp;&nbsp;&nbsp; 
+                    <a href="#" class="swiper-next">></a>
+                </h2>
+                <div class="line ">
+                    <span class="lines line1 coming-up" style="transition-delay:0.4s;"></span>
+                    <span class="lines line2 coming-up" style="transition-delay:0.6s;"></span>
+                    <div class="swiper-pagination coming-up" style="transition-delay:0.8s;"></div>
+                </div>
+                <div class="scroll coming-up" style="transition-delay:1.4s;">Scroll Down <i
+                        class="fas fa-angle-down"></i></div>
+                <div class="circle coming-up" style="transition-delay:1.2s;">
+                    <div class="circle-wrap">
+                        <img src="images/MC.svg" alt="MC">
+                        <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" xml:lang="en"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+                            <title>Circular Text Path</title>
+                            <style>
+                                text {
+                                    font-size: 28px;
+                                    font-weight: normal;
+                                    font-variant-ligatures: none;
+                                    fill: #fff;
+                                }
+                            </style>
+                            <defs>
+                                <path id="textcircle" d="M250,400
+                                    a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" transform="rotate(12,250,250)" />
+                            </defs>
+                            <text>
+                                <textPath xlink:href="#textcircle" aria-label="All for One &amp; One for All"
+                                    textLength="922">YOU CAN SEE THE GREAT CURVE IN EVERY TIME, EVERY MOMENT.</textPath>
+                            </text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div id="work" class="sect sect2">
+                <div class="sect_wrap">
+                    <h3 class="coming-up">WORKS</h3>
+                    <div class="row quarter center">
+                        <div class="col coming-up" style="transition-delay:0.2s;">
+                            <div class="square">
+                                <a href="#">
+                                    <img src="images/pi_1.png" alt="With Bike" class="icon">
+                                    <h5>With Bike</h5>
+                                    <span>공유자전거 플랫폼 웹사이트</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col coming-up" style="transition-delay:0.4s;">
+                            <div class="square">
+                                <a href="#">
+                                    <img src="images/pi_2.png" alt="La Fleur" class="icon">
+                                    <h5>La Fleur</h5>
+                                    <span>꽃 구매 커뮤니티</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col coming-up" style="transition-delay:0.6s;">
+                            <div class="square">
+                                <a href="#">
+                                    <img src="images/pi_3.png" alt="OISEAU" class="icon">
+                                    <h5>OISEAU</h5>
+                                    <span>앵무새 분양 사이트</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col coming-up" style="transition-delay:0.8s;">
+                            <div class="square">
+                                <a href="#">
+                                    <img src="images/pi_4.png" alt="Weather Report" class="icon">
+                                    <h5>Weather Report</h5>
+                                    <span>날씨 예보 어플리케이션</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col coming-up" style="transition-delay:1s;">
+                            <div class="square">
+                                <a href="#">
+                                    <img src="images/pi_5.png" alt="Treenut" class="icon">
+                                    <h5>Treenut</h5>
+                                    <span>삼림욕 예약사이트</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col coming-up" style="transition-delay:1.2s;">
+                            <div class="square">
+                                <a href="#">
+                                    <img src="images/pi_6.png" alt="Darae" class="icon">
+                                    <h5>Darae</h5>
+                                    <span>전통찻집 랜딩페이지</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col coming-up" style="transition-delay:1.4s;">
+                            <div class="square">
+                                <a href="#">
+                                    <img src="images/pi_7.png" alt="Lemon" class="icon">
+                                    <h5>Lemon</h5>
+                                    <span>과일 큐레이팅 서비스 페이지</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col coming-up" style="transition-delay:1.6s;">
+                            <div class="square">
+                                <a href="#">
+                                    <img src="images/pi_8.png" alt="Chichen Itza" class="icon">
+                                    <h5>Chichen Itza</h5>
+                                    <span>칸쿤 여행 가이드 페이지</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sect sect3 coming-up">
+                <div class="sect_wrap">
+                    <h3 class="coming-up" style="transition-delay:0.3s;">
+                        <b>Enchanted!</b>
+                        사용자를 사로잡는 <strong>디자인,</strong> <br>
+                        마법 같은 <strong>퍼블리싱</strong>의 세계로 <br>
+                        당신을 초대합니다.
+                        <a href="#" class="continue toSect4 coming-up" style="transition-delay:0.6s;">Continue 
+                            <span class="arrow"></span></a>
+                    </h3>
+                    <div class="img1 imgbox coming-up">
+                        <img src="images/s3_1.png" alt="HTML/CSS/JS">
+                        <span>HTML/CSS/JS</span>
+                    </div>
+                    <div class="img2 imgbox coming-up" style="transition-delay:0.6s;">
+                        <img src="images/s3_2.png" alt="SEO, 웹표준 준수">
+                        <span>SEO, 웹표준 준수</span>
+                    </div>
+                    <div class="img3 imgbox coming-up" style="transition-delay:0.9s;">
+                        <img src="images/s3_3.png" alt="DESIGN/WEB PUBLISHING">
+                        <span>DESIGN/WEB PUBLISHING</span>
+                    </div>
+                </div>
+            </div>
+            <div id="about" class="sect sect4">
+                <div class="sect_wrap">
+                    <div class="row half">
+                        <div class="col">
+                            <div class="imgbox coming-up"><img src="images/s4_1.png" alt="my photo"></div>
+                        </div>
+                        <div class="col">
+                            <div class="dsc">
+                                <h3 class="coming-up">비즈니스 웹사이트 <br>토탈 솔루션</h3>
+                                <p class="coming-up" style="transition-delay:0.3s;">반응형 기업홈페이지/쇼핑몰 구축 전반을 경험하였으며 <br>
+                                    디자인부터 시작하여 코딩, 유지보수까지 모두 가능합니다.<br>
+                                    HTML, CSS, JS를 능숙하게 다루며 그누보드 설치 및 스킨변경이 가능합니다.<br>
+                                    다양한 홈페이지 제작과 유지보수, 도메인/호스팅 시스템을 이해하며 홈페이지 구축을 도와드립니다.<br>
+                                    그 외 상세페이지, 채용공고 디자인 제작 등 다양한 프로젝트에 투입되었습니다.</p>
+                                <h3 class="coming-up" style="transition-delay:0.6s;">PUSING LIMITS FOR EVERYONE</h3>
+                                <p class="coming-up" style="transition-delay:0.9s;">
+                                    좋은 디자인은 편안하고, 언제나 거기에 있던 것처럼 느껴집니다. <br>
+                                    저의 꿈은 좋은 디자인을 통해 우리 안의 경계를 허무는 것입니다.<br><br>
+
+                                    기본이 되는 인사부터 시작하겠습니다. 기분이 좋아지는 밝은 미소로 인사드리겠습니다.<br>
+                                    눈을 맞추겠습니다. 투명한 마음으로 열정이 무엇인지 보여 드리겠습니다.<br>
+                                    배우겠습니다. 고집은 모두 허물고, 새로운 마음으로 채우겠습니다.<br><br>
+
+                                    소통하겠습니다. 다른 사람의 마음에 공감할 수 있는 사람이 되겠습니다.<br>
+                                    성장하겠습니다. 매일 매일 새롭게 어제의 나보다 나은 저 자신이 되겠습니다.<br>
+                                    일 잘하는 사람이 되겠습니다. 늘 안심하고 일을 맡길 수 있는 사람이 되겠습니다.<br>
+                                    계획을 지키기 위해 언제나 새롭게 책과 미디어 등으로 배우고, <br>
+                                    공부를 통해 늘 성장하고 발전하는 사람이 되겠습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sect sect5">
+                <div class="sect_wrap">
+                    <div class="row coming-up">
+                        <h3 class="f-left">INSTAGRAM</h3>
+                        <a href="#" class="more f-right">View more ></a>
+                    </div>
+                    <div class="instagram row quarter">
+                        <div class="col coming-up" style="transition-delay:0.2s; ">
+                            <a href="#">
+                                <span class="imgbox">
+                                    <img src="images/s5_1.png" alt="Portfolio">
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col coming-up" style="transition-delay:0.4s;">
+                            <a href="#">
+                                <span class="imgbox">
+                                    <img src="images/s5_2.png" alt="Portfolio">
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col coming-up" style="transition-delay:0.6s;">
+                            <a href="#">
+                                <span class="imgbox">
+                                    <img src="images/s5_3.png" alt="Portfolio">
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col coming-up" style="transition-delay:0.8s;">
+                            <a href="#">
+                                <span class="imgbox">
+                                    <img src="images/s5_4.png" alt="Portfolio">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="sect sect6">
+                <div class="sect_wrap">
+                    <div class="row half">
+                        <div class="col">
+                            <h3 class="coming-up">CONTACT</h3>
+                            <div class="profile">
+                                <h3 class="coming-up" style="transition-delay:0.2s;">김몰입</h3>
+                                <dl class="coming-up" style="transition-delay:0.4s;">
+                                    <dt>MOBILE</dt>
+                                    <dd>+82-0000-0000</dd>
+                                </dl>
+                                <dl class="coming-up" style="transition-delay:0.6s;">
+                                    <dt>MAIL</dt>
+                                    <dd>morip@coding.com</dd>
+                                </dl>
+                                <dl class="coming-up" style="transition-delay:0.8s;">
+                                    <dt>LIVE IN</dt>
+                                    <dd>SOUTH KOREA</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <p class="coming-up" style="transition-delay:1s;">제 포트폴리오 사이트를 방문해 주셔서 감사합니다. <br>
+                                만약 저의 프로젝트에 관심이 있거나 궁금한 점이 생기셨다면 <br>
+                                언제든지 연락주세요!
+                            </p>
+                            <form action="#" class="formmail">
+                                <input class="coming-up" style="transition-delay:1.2s;" type="text" class="name" placeholder="NAME">
+                                <input class="coming-up" style="transition-delay:1.5s;" type="text" class="mail" placeholder="MAIL">
+                                <textarea class="coming-up" style="transition-delay:1.8s;" name="" id="" cols="30" rows="10" placeholder="CONTENTS"></textarea>
+                                <input class="coming-up" style="transition-delay:2.1s;" type="submit" value="SUBMIT">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <p class="coming-up">Copyright ⓒ MORIP CODING 2021 All Rights Reserved.</p>
+                    <ul class="sns">
+                        <li class="coming-up" style="transition-delay:0.3s;">
+                            <a href="#">
+                                <img src="images/insta_w.png" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="coming-up" style="transition-delay:0.6s;">
+                            <a href="#">
+                                <img src="images/facebook_w.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="coming-up" style="transition-delay:0.9s;">
+                            <a href="#">
+                                <img src="images/blog_w.png" alt="blog">
+                            </a>
+                        </li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('.modal-menu').classList.remove('on');
+        $('document').ready(function () {
+
+            //smooth scroll
+            const body = document.querySelector('.wrap'),
+            scrollWrap = document.querySelector(".smooth-scroll-wrapper"),
+            height = scrollWrap.getBoundingClientRect().height,
+            speed = 0.093;
+            var offset = 0;
+            var yoffset = 0;
+
+            body.style.height = Math.floor(height) + "px";
+
+            function smoothScroll() {
+                offset += (window.pageYOffset - offset) * speed;
+                var scroll = "translateY(-" + offset + "px) translateZ(0)";
+                scrollWrap.style.transform = scroll;
+                callScroll = requestAnimationFrame(smoothScroll);
+            }
+            smoothScroll();
+
+            // 로딩후 첫화면
+            setTimeout(function () {
+                $('.overlay .h1_wrap').addClass('on');
+            }, 100)
+            setTimeout(function () {
+                $('.overlay h1').addClass('on');
+            }, 300)
+            setTimeout(function () {
+                $('.overlay h1').addClass('on on2');
+            }, 2000)
+            setTimeout(function () {
+                $('.overlay').addClass('on');
+            }, 2600)
+            setTimeout(function () {
+                $('header .coming-up').addClass('on');
+            }, 2600)
+            setTimeout(function () {
+                $('.sect1 .coming-up').addClass('on');
+            }, 3000);
+
+            // 새로고침 시 coming up 적용
+            setTimeout(function () {
+                yoffset = window.pageYOffset;
+                yoffset + 1;
+                if (yoffset >= $('.sect2 .coming-up').offset().top - 600) {
+                    $('.sect2 .coming-up').addClass('on');
+                };
+                if (yoffset >= $('.sect3 .coming-up').offset().top - 900) {
+                    $('.sect3 .coming-up').addClass('on');
+                    $('.sect3 .imgbox').addClass('on');
+                    $('.sect3 h3').addClass('on');
+                };
+                if (yoffset >= $('.sect4 .coming-up').offset().top - 600) {
+                    $('.sect4 .coming-up').addClass('on');
+                };
+                if (yoffset >= $('.sect5 .coming-up').offset().top - 600) {
+                    $('.sect5 .coming-up').addClass('on');
+                };
+                if (yoffset >= $('.sect6 .coming-up').offset().top - 600) {
+                    $('.sect6 .coming-up').addClass('on');
+                };
+                if (yoffset >= $('footer .coming-up').offset().top - 600) {
+                    $('footer .coming-up').addClass('on');
+                };
+            }, 2000);
+
+            // 스크롤시 coming up 적용
+            window.addEventListener('scroll', () => {
+                yoffset = window.pageYOffset;
+                if (yoffset >= $('.sect2 .coming-up').offset().top - 600) {
+                    $('.sect2 .coming-up').addClass('on');
+                }
+                if (yoffset >= $('.sect3 .coming-up').offset().top - 900) {
+                    $('.sect3 .imgbox').addClass('on');
+                    $('.sect3 h3').addClass('on');
+                    $('.sect3.coming-up , .sect3 .coming-up').addClass('on');
+                }
+                if (yoffset >= $('.sect4 .coming-up').offset().top - 600) {
+                    $('.sect4 .coming-up').addClass('on');
+                }
+                if (yoffset >= $('.sect5 .coming-up').offset().top - 600) {
+                    $('.sect5 .coming-up').addClass('on');
+                }
+                if (yoffset >= $('.sect6 .coming-up').offset().top - 600) {
+                    $('.sect6 .coming-up').addClass('on');
+                }
+                if (yoffset >= $('footer .coming-up').offset().top - 600) {
+                    $('footer .coming-up').addClass('on');
+                }
+            });
+        
+            // Swiper 슬라이더 사용
+            const mainSlider = new Swiper('#mainSlider', {
+                slidesPerView: 1,
+                loop: true,
+                initialSlide: 2,
+                effect: 'fade',
+                pagination: true, // pager 여부
+                autoplay: { // 자동 슬라이드 설정 , 비 활성화 시 false
+                    delay: 3000, // 시간 설정
+                    disableOnInteraction: false, // false로 설정하면 스와이프 후 자동 재생이 비활성화 되지 않음
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+                navigation: { // 버튼 사용자 지정
+                    nextEl: '.swiper-next',
+                    prevEl: '.swiper-prev',
+                }
+            });
+        
+            // 링크 누를 시 부드럽게 스크롤
+            var location = document.querySelector('.sect2').pageYOffset;
+            $('.workA').click(function () {
+                $('.modal-menu').removeClass('on');
+                $('html').animate({
+                    scrollTop: $('.sect2').offset().top - 80,
+                }, 1000);
+            });
+            $('.aboutA').click(function () {
+                $('.modal-menu').removeClass('on');
+                $('html').animate({
+                    scrollTop: $('.sect4').offset().top - 80,
+                }, 1000);
+            });
+            $('.contactA').click(function () {
+                $('.modal-menu').removeClass('on');
+                $('html').animate({
+                    scrollTop: $('.sect6').offset().top - 80,
+                }, 1000);
+                setTimeout(function () {
+                    $('.sect6 .coming-up').addClass('on');
+                    $('footer .coming-up').addClass('on');
+                }, 1000)
+            });
+            $('.toSect2').click(function () {
+                $('html').animate({
+                    scrollTop: $('.sect2').offset().top - 80,
+                }, 1000);
+            });
+            $('.toSect4').click(function () {
+                $('html').animate({
+                    scrollTop: $('.sect4').offset().top - 80,
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+</html>

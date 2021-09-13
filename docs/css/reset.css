@@ -1,0 +1,16 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+KR:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&display=swap');
+/* reset */
+* {margin:0; padding:0; box-sizing:border-box;}
+body {word-wrap: break-word; word-break:keep-all;font-family: 'Montserrat', sans-serif;}
+a {color:inherit; text-decoration:none;}
+ul, ol, li {list-style:none;}
+.imgbox img {max-width:100%;}
+.black {color:#000;} .white {color:#fff;} .firstgray {color:#333} .secondgray {color:#666;} .thirdgray {color:#999;}
+.row::after, dl::after {display:block; clear:both; content:'';}
+.row > .col, dl > dt, dl > dd, ul.row > li {float:left;}
+.half > .col {width:50%;} .third > .col {width:33.3%;} .quarter > .col {width:25%;} .fifths > .col {width:20%;} .sixths > .col {width:16.67%;}
+.center {text-align:center;} .left {text-align:left;} .right {text-align:right;}
+.f-left {float:left;} .f-right {float:right;}
